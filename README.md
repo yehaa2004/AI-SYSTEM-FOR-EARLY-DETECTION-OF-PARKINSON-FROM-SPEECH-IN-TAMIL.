@@ -41,6 +41,7 @@ Tamil_Parkinson_Dataset/
 ├── test/
 │   ├── healthy/
 │   └── parkinson/
+
 Dataset Characteristics
 
 Type: Audio (.wav)
@@ -105,6 +106,7 @@ Random zoom
 Random contrast
 
 🏗 Model Architectures
+
 🔹 MLP Model
 
 Used flattened spectrogram features.
