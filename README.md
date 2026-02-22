@@ -69,6 +69,7 @@ Harmonic-to-noise ratio
 Speech analysis provides a non-invasive diagnostic support tool.
 
 🧾 Data Preprocessing Pipeline
+
 1️⃣ Audio Loading
 
 Loaded using librosa
@@ -144,8 +145,11 @@ Dense (64) + Dropout
 Output: Sigmoid
 
 Loss: Binary Crossentropy
+
 Optimizer: Adam
+
 Learning Rate: 0.0005
+
 EarlyStopping used
 
 📊 Evaluation Metrics
@@ -163,9 +167,11 @@ Confusion Matrix
 Training & Validation curves
 
 📈 Comparative Analysis (MLP vs CNN)
+
 Model	Strength	Limitation
 MLP	Simple, faster training	Ignores spatial structure
 CNN	Captures time-frequency patterns	Higher computation
+
 Key Insight:
 
 CNN performs better because Mel Spectrograms contain spatial time-frequency dependencies that convolutional layers can capture effectively.
@@ -200,9 +206,7 @@ Scikit-learn
 
 🚀 How to Run
 
-Clone repository
-
-git clone https://github.com/yourusername/parkinson-detection.git
+IEEE DATAPORT 
 
 Install dependencies
 
@@ -211,6 +215,7 @@ pip install -r requirements.txt
 Run notebook
 
 jupyter notebook
+
 🔁 Reproducibility
 
 Random seeds are fixed for:
