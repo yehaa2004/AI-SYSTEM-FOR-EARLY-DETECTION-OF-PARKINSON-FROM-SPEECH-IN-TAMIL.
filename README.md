@@ -125,7 +125,9 @@ Dropout (0.5)
 Output: Sigmoid
 
 Loss: Binary Crossentropy
+
 Optimizer: Adam
+
 Learning Rate: 0.001
 
 🔹 CNN Model (Main Model)
